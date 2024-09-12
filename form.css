@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+html{
+    background-color:  #A5E0DD;
+   display: flex;
+   justify-content: center;
+   margin: 50px;
+}
+form{
+   background-color: #fff;
+width: 500px;
+border-radius: 10px;
+border: 1px solid #ddd;
+text-align: center;
+}
+
+#email{
+    width: 90%;
+}
+label{
+    text-align: left;
+margin-top: 5px;  
+}
+
+input{
+    margin: 5px 0px 5px 0 ;
+    height: 50px;
+    width: 35%;
+    border: 3px solid #ddd;
+    box-shadow: 0px 5px 5px 0px #ddd;
+    border-radius: 10px;
+    padding:10px 10px 10px; 
+}
+textarea{
+    height: 440px;
+    width: 90px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 5px 5px 0px #ddd;
+    border-radius: 10px;
+   padding:10px 10px 10px; 
+   margin: 10px;git init
+}
+#range{
+    width: 90%;
+}
+button{
+    box-shadow: 0px 5px 5px 0px #ddd;
+    background-color: #20B2AA;
+    border: none;
+    width: 90%;
+    height:50px ;
+    font-weight: 500;
+    font-size:20px;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+button:hover{
+    background: #105955;
+}
